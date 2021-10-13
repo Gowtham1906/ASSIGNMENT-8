@@ -1,8 +1,9 @@
 num = int(input("Enter a number: "))
 l = len(str(num))
-sqr = num*num
-last = sqr%pow(10,l)
+sqr = num**2
+last = sqr%10
 if (last == num):
   print(num,"is Automorphic Number")
 else:
   print(num,"isn't an Automorphic Number")
+  
